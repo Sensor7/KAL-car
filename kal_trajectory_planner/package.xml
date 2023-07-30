@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>kal_trajectory_planner</name>
+  <version>0.0.0</version>
+  <description>Simple implementation of a trajectory planner for the Kognitive Automobile Lab.</description>
+
+  <license>BSD</license>
+  <maintainer email="nick.lelarge@kit.edu">Nick Le Large</maintainer>
+  <author email="nick.lelarge@kit.edu">Nick Le Large</author>
+  <url type="repository">https://gitlab.mrt.kit.edu/kognitive_automobile_labor/shared/kal_trajectory_planner</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>mrt_cmake_modules</build_depend>
+  <test_depend>gtest</test_depend>
+  <!--
+    Documentation for dependencies:
+    <build_depend>            Build-time dependency required to build
+                              this package, e.g. boost, opencv.
+    <build_export_depend>     Exported build-time dependency required to
+                              build packages that depend on this package,
+                              e.g. boost, opencv.
+    <exec_depend>             Execution dependency required to run this
+                              package, e.g. boost, opencv.
+    <depend>                  Build-time, exported build-time and execution
+                              dependency. This is a bundled synonym for
+                              <build_depend>, <build_export_depend> and
+                              <exec_depend>.
+  -->
+  <!--
+    Example:
+    <depend>mrt_opencv</depend>
+  -->
+
+  <depend>eigen</depend>
+  <depend>libgoogle-glog-dev</depend>
+
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+  </export>
+</package>
