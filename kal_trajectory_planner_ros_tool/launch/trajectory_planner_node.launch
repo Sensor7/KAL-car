@@ -1,0 +1,21 @@
+<launch>
+
+  <!-- Set these parameters in a higher level launch file -->
+  <arg name="map_frame"/>
+  <arg name="path_topic"/>
+  <arg name="trajectory_topic"/>
+  <arg name="vehicle_frame"/>
+
+  <!-- Set all default values in this yaml file -->
+  <arg name="config" default="$(find kal_trajectory_planner_ros_tool)/launch/params/trajectory_planner_parameters.yaml"/>
+
+  <!-- Start the node using parameters defined above -->
+  <node pkg="kal_trajectory_planner_ros_tool" type="trajectory_planner" name="trajectory_planner" ns="/planning" output="screen">
+    <rosparam command="load" file="$(arg config)"/>
+    <param name="map_frame" value="$(arg map_frame)"/>
+    <param name="path_subscriber_topic" value="$(arg path_topic)"/>
+    <param name="trajectory_publisher_topic" value="$(arg trajectory_topic)"/>
+    <param name="vehicle_frame" value="$(arg vehicle_frame)"/>
+  </node>
+
+</launch>

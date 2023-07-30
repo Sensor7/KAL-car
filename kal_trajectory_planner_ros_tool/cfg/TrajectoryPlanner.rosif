@@ -1,0 +1,66 @@
+#!/usr/bin/env python
+"""
+Add your desired parameters here. All required headers will be generated from this.
+!!!IMPORTANT this file must be executable !!!
+
+Use one of these commands to add parameters to your parameter struct:
+
+def add(self, name, paramtype, description, level=0, edit_method='""', default=None, min=None, max=None, configurable=False, global_scope=False, constant=False):
+        Adds parameters to your parameter struct.
+
+def add_enum(self, name, description, entry_strings, default=None, paramtype='int'):
+        Adds an enum to dynamic reconfigure
+
+def add_group(self, name):
+        Create a parameter group for the dynamic_reconfigure window
+
+def add_publisher(self, name, message_type, description, default_topic=None, default_queue_size=5, topic_param=None,
+                  queue_size_param=None, header=None, module=None, configurable=False, scope="private",
+                  constant=False, diagnosed=False, min_frequency=0., min_frequency_param=None, max_delay=float('inf'),
+                  max_delay_param=None):
+        Adds an initialized publisher to your parameter struct and parameter for its topic and queue size.
+        Diagnosed publishers require the line: gen.add_diagnostic_updater().
+
+
+def add_subscriber(self, name, message_type, description, default_topic=None, default_queue_size=5, no_delay=False,
+                   topic_param=None, queue_size_param=None, header=None, module=None, configurable=False,
+                   scope='private', constant=False, diagnosed=False, min_frequency=0., min_frequency_param=None,
+                   max_delay=float('inf'), max_delay_param=None):
+        Adds an initialized subscriber to your parameter struct and parameters for topic and queue size.
+        Diagnosed subscribers require the line: gen.add_diagnostic_updater().
+
+
+For more information on the API, see here: https://gitlab.mrt.uni-karlsruhe.de/MRT/rosinterface_handler/blob/master/doc/HowToWriteYourFirstInterfaceFile.md
+"""
+from rosinterface_handler.interface_generator_catkin import *
+
+gen = InterfaceGenerator()
+
+# Add a parameter for changing verbosity (=log level) on the fly
+gen.add_verbosity_param(configurable=True)
+
+# Fixed parameters
+gen.add("map_frame", paramtype="std::string", description="TF frame of the map", configurable=False)
+gen.add("timer_rate", paramtype="double",
+        description="Trajectory publisher frequency [Hz]", min=0, max=20, configurable=False)
+gen.add("vehicle_frame", paramtype="std::string", description="TF frame of the vehicle", configurable=False)
+
+# Configurable parameters
+gen.add("desired_speed", paramtype="double", description="Desired speed [m/s]", min=0.5, max=20., configurable=True)
+gen.add("polynomial_degree", paramtype="int",
+        description="The degree of the polynomial used to estimate the trajectory", min=0, max=10, configurable=True)
+gen.add("trajectory_length", paramtype="double",
+        description="Minimum length of the trajectory [m]", min=0, max=10, configurable=True)
+gen.add("trajectory_num_of_points", paramtype="int",
+        description="The number of points the published trajectory will have", min=2, max=100, configurable=True)
+
+
+# Publisher and subscriber (group name will show up in dynamic_reconfigure window)
+pub_sub = gen.add_group("Publisher and subscriber")
+pub_sub.add_subscriber("path_subscriber", message_type="nav_msgs::Path", description="Path subscriber", no_delay=True, configurable=False)
+pub_sub.add_publisher("trajectory_publisher", message_type="nav_msgs::Path", description="Trajectory publisher", configurable=False)
+
+
+# DO NOT TOUCH THIS LINE
+#Syntax : Package, Node, Config Name(The final name will be TrajectoryPlannerConfig)
+exit(gen.generate("kal_trajectory_planner_ros_tool", "trajectory_planner", "TrajectoryPlanner"))

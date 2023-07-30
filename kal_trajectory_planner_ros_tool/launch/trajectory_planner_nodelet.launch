@@ -1,0 +1,29 @@
+<launch>
+
+    <arg name="map_frame"/>
+    <arg name="path_topic"/>
+    <arg name="trajectory_topic"/>
+    <arg name="vehicle_frame"/>
+
+    <arg name="config" default="$(find kal_trajectory_planner_ros_tool)/launch/params/trajectory_planner_parameters.yaml"/>
+
+    <arg name="nodelet_manager_name" default="nodelet_manager_trajectory_planner" doc="Name of nodelet manager. If it was already started the INCLUDING its namespace"/>
+    <arg name="start_nodelet_manager" default="true"/>
+
+    <!-- Nodelet manager (if enabled) -->
+    <arg name="manager_name" value="/planning/$(arg nodelet_manager_name)" if="$(arg start_nodelet_manager)"/>
+    <arg name="manager_name" value="$(arg nodelet_manager_name)" unless="$(arg start_nodelet_manager)"/>
+    <node pkg="nodelet" type="nodelet" name="$(arg nodelet_manager_name)" args="manager" output="screen" ns="/planning"
+          if="$(arg start_nodelet_manager)"/>
+
+    <!-- TrajectoryPlanner -->
+    <node pkg="nodelet" type="nodelet" name="trajectory_planner" ns="/planning"
+          args="load kal_trajectory_planner_ros_tool/TrajectoryPlannerNodelet $(arg nodelet_manager_name)" output="screen" required="$(arg required)">
+        <rosparam command="load" file="$(arg config)"/>
+        <param name="map_frame" value="$(arg map_frame)"/>
+        <param name="path_subscriber_topic" value="$(arg path_topic)"/>
+        <param name="trajectory_publisher_topic" value="$(arg trajectory_topic)"/>
+        <param name="vehicle_frame" value="$(arg vehicle_frame)"/>
+    </node>
+
+</launch>

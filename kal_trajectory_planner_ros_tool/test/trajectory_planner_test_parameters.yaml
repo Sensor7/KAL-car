@@ -1,0 +1,46 @@
+### This file was generated using the rosinterface_handler generate_yaml script.
+
+# Name:	verbosity
+# Desc:	Sets the verbosity for this node
+# Type:	std::string
+verbosity: debug
+
+# Name:	timer_rate
+# Desc:	Trajectory publisher frequency [Hz]
+# Type:	double
+# [min,max]:	[0/20]
+timer_rate: 10
+
+# Name:	desired_speed
+# Desc:	Desired speed [m/s]
+# Type:	double
+# [min,max]:	[0.5/20.0]
+desired_speed: 2.0
+
+# Name:	polynomial_degree
+# Desc:	The degree of the polynomial used to estimate the trajectory
+# Type:	int
+# [min,max]:	[0/10]
+polynomial_degree: 3
+
+# Name:	trajectory_length
+# Desc:	Minimum length of the trajectory [m]
+# Type:	double
+# [min,max]:	[0/10]
+trajectory_length: 2.0
+
+# Name:	trajectory_num_of_points
+# Desc:	The number of points the published trajectory will have
+# Type:	int
+# [min,max]:	[2/100]
+trajectory_num_of_points: 20
+
+# Name:	path_subscriber_queue_size
+# Desc:	Queue size for Path subscriber
+# Type:	int
+path_subscriber_queue_size: 5
+
+# Name:	trajectory_publisher_queue_size
+# Desc:	Queue size for Trajectory publisher
+# Type:	int
+trajectory_publisher_queue_size: 5

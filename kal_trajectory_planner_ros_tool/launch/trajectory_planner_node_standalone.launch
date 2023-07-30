@@ -1,0 +1,15 @@
+<!--
+  Launch this file only if you want to start the trajectory planning only (e.g. for testing and development).
+  For launching the entire stack, include the trajectory_planner_node.launch file in a higher level launch file directly.
+-->
+
+<launch>
+
+  <include file="$(find kal_trajectory_planner_ros_tool)/launch/trajectory_planner_node.launch">
+      <arg name="map_frame" value="stargazer"/>
+      <arg name="path_topic" value="/path"/>
+      <arg name="trajectory_topic" value="/trajectory"/>
+      <arg name="vehicle_frame" value="vehicle_rear_axle"/>
+  </include>
+
+</launch>

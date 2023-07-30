@@ -1,0 +1,16 @@
+<launch>
+    <!-- uncomment this if your unittest advertises /clock" -->
+    <!--<param name="/use_sim_time" value="True"/>-->
+
+    <test test-name="trajectory_planner_node_test" pkg="kal_trajectory_planner_ros_tool" type="trajectory_planner_node-test" ns="/trajectory_planner" time-limit="60.0"/>
+
+    <arg name="config" default="$(find kal_trajectory_planner_ros_tool)/test/trajectory_planner_test_parameters.yaml"/>
+    <include file="$(find kal_trajectory_planner_ros_tool)/launch/trajectory_planner_node.launch">
+        <arg name="config" value="$(arg config)"/>
+        <arg name="map_frame" value="map"/>
+        <arg name="path_topic" value="/rostest/path"/>
+        <arg name="trajectory_topic" value="/rostest/trajectory"/>
+        <arg name="vehicle_frame" value="vehicle"/>
+    </include>
+</launch>
+

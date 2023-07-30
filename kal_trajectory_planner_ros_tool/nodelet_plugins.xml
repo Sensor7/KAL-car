@@ -1,0 +1,6 @@
+<library path="lib/libkal_trajectory_planner_ros_tool-trajectory_planner-nodelet">
+<class name="kal_trajectory_planner_ros_tool/TrajectoryPlannerNodelet"
+       type="kal_trajectory_planner_ros_tool::TrajectoryPlannerNodelet" base_class_type="nodelet::Nodelet">
+  <description></description>
+</class>
+</library>
