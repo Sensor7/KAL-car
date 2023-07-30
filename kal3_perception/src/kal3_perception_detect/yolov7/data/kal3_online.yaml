@@ -1,0 +1,7 @@
+train: E:/kal_project/freicar_project_sign_detect/freicar_traffic_sign_detect/stop sign and traffic cone/train/images
+val: E:/kal_project/freicar_project_sign_detect/freicar_traffic_sign_detect/stop sign and traffic cone/valid/images
+test: E:/kal_project/freicar_project_sign_detect/freicar_traffic_sign_detect/stop sign and traffic cone/test/images
+
+nc: 2
+names: ['stop sign','traffic cone']
+

@@ -1,0 +1,29 @@
+
+*** These modified files were found in JOE when it aborted on Sun Jul  9 17:19:30 2023
+*** JOE was aborted by UNIX signal 1
+
+*** File '(Unnamed)'
+/home/kal3/kal_ws/src/kal3_perception/.git/COMMIT_EDITMSG
+
+*** File '/home/kal3/kal_ws/src/kal3_perception/.git/COMMIT_EDITMSG'
+
+
+
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Your branch is up to date with 'origin/master'.
+#
+# Changes to be committed:
+#	modified:   src/kal3_perception_detect/package.xml
+#	modified:   src/kal3_perception_detect/yolov7/inference-ros-node.py
+#	modified:   src/kal3_perception_mapping/src/mapping_node.py
+#
+
+*** File '* Startup Log *'
+Processing '/etc/joe/editorrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/editorrc

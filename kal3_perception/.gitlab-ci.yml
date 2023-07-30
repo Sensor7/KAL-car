@@ -1,0 +1,58 @@
+#version=1.6
+variables:
+  GIT_STRATEGY: none
+  GIT_CLONE_PATH: $CI_BUILDS_DIR/gitlab
+  ROSCONSOLE_FORMAT: '[$${severity}] [$${time}] [$${node}]: $${message}'
+
+# dont create a commit pipeline when a merge request pipeline runs for the same change
+workflow:
+  rules:
+    - if: $CI_COMMIT_BRANCH && $CI_OPEN_MERGE_REQUESTS && $CI_PIPELINE_SOURCE == "push"
+      when: never
+    - when: always
+
+# Cache build results between building and testing
+cache: &global_cache # anchor which declares the global cache setting
+  paths:
+  - catkin_ws/
+stages:
+  - build
+  - test
+
+# Prepare workspace and checkout the code. This will be executed before every stage
+before_script:
+  # Environment variablen setzen
+  - echo -e "section_start:`date +%s`:prepare\r\e[0K\e[36m\e[1mInit workspace, cleanup cache and clone package\e[0m"
+  - export SHELL="/bin/bash"
+  - sudo apt-get update && sudo apt-get upgrade -y
+  # Prepare workspace (in folder catkin_ws), checkout package, setup cached packages properly
+  - mrt ci prepare $CI_PROJECT_NAME -c $CI_COMMIT_SHA --branch $CI_COMMIT_SHA --branch $CI_COMMIT_REF_NAME
+  - cd catkin_ws
+  - echo -e "section_end:`date +%s`:prepare\r\e[0K"
+
+build:
+  stage: build
+  script:
+  # Build project and resolve deps in debug mode
+  - echo -e "section_start:`date +%s`:resolve\r\e[0KResolve dependencies"
+  - mrt ws resolve-deps -y
+  - echo -e "section_end:`date +%s`:resolve\r\e[0K"; echo -e "section_start:`date +%s`:build\r\e[0K\e[36m\e[1mBuild\e[0m"
+  - mrt catkin build -sc --debug --no-status $CI_PROJECT_NAME || mrt ci report-build-failure $CI_PROJECT_NAME
+  - echo -e "section_end:`date +%s`:build\r\e[0K";
+
+test:
+  stage: test
+  needs: [build]
+  coverage: '/Total lines covered: \d+.\d+\%/'
+  variables:
+    MRT_MIN_COVERAGE: $MRT_REQUIRED_COVERAGE
+    TEST_BUILD_MODE: debug
+  script:
+  # Build code again, in case caching didn't work
+  - echo -e "section_start:`date +%s`:resolve\r\e[0K\e[36m\e[1mResolve dependencies and build\e[0m"
+  - mrt catkin build -s -rd --$TEST_BUILD_MODE --default_yes --no-status $CI_PROJECT_NAME
+  # Run tests
+  - echo -e "section_end:`date +%s`:resolve\r\e[0K"; echo -e "section_start:`date +%s`:test\r\e[0K\e[36m\e[1mRun tests\e[0m"
+  - eval `mrt ws get_source_command`
+  - mrt catkin run_tests --no-status $CI_PROJECT_NAME --no-deps
+  - echo -e "section_end:`date +%s`:test\r\e[0K";
