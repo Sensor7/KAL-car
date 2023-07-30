@@ -1,0 +1,33 @@
+repositories:
+  src/kal:
+    type: git
+    url: https://gitlab.mrt.kit.edu/kognitive_automobile_labor/shared/kal.git
+    version: master
+  src/kal_controller:
+    type: git
+    url: https://gitlab.mrt.kit.edu/kognitive_automobile_labor/shared/kal_controller.git
+    version: master
+  src/kal_controller_ros_tool:
+    type: git
+    url: https://gitlab.mrt.kit.edu/kognitive_automobile_labor/shared/kal_controller_ros_tool.git
+    version: master
+  src/kal_trajectory_planner:
+    type: git
+    url: https://gitlab.mrt.kit.edu/kognitive_automobile_labor/shared/kal_trajectory_planner.git
+    version: master
+  src/kal_trajectory_planner_ros_tool:
+    type: git
+    url: https://gitlab.mrt.kit.edu/kognitive_automobile_labor/shared/kal_trajectory_planner_ros_tool.git
+    version: master
+  src/path_generator_ros_tool:
+    type: git
+    url: https://gitlab.mrt.kit.edu/kognitive_automobile_labor/shared/path_generator_ros_tool.git
+    version: master
+  src/rospy_message_converter:
+    type: git
+    url: https://github.com/DFKI-NI/rospy_message_converter.git
+    version: master
+  src/util_testing_ros:
+    type: git
+    url: https://gitlab.mrt.kit.edu/MRT/production/util_testing_ros.git
+    version: master

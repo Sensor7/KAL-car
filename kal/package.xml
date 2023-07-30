@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>kal</name>
+  <version>1.0.0</version>
+  <description>Meta package containing all available KAL packages.</description>
+
+  <license>GPLv3</license>
+  <maintainer email="nick.lelarge@kit.edu">Nick Le Large</maintainer>
+  <author email="sascha.wirges@kit.edu">Sascha Wirges</author>
+  <url type="repository">https://gitlab.mrt.kit.edu/kognitive_automobile_labor/shared/kal</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>mrt_cmake_modules</build_depend>
+
+  <depend>kal_controller_ros_tool</depend>
+  <depend>kal_trajectory_planner_ros_tool</depend>
+  <depend>path_generator_ros_tool</depend>
+  <depend>kal3_controller_ros_tool</depend>
+
+  <export>
+  </export>
+</package>

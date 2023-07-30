@@ -1,0 +1,6695 @@
+header:
+  frame_id: stargazer
+  seq: 0
+  stamp:
+    nsecs: 185400485
+    secs: 1689604844
+poses:
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 4.923887867197322
+      y: 0.6554553622106606
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 4.9802221184247415
+      y: 0.6440282278745459
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 5.089058207766488
+      y: 0.6406097288005829
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 5.212039149847467
+      y: 0.6410342048007113
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 5.277543450506398
+      y: 0.6379792009152833
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 5.373931788862109
+      y: 0.6177757250052553
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 5.475701867209446
+      y: 0.6777074591186132
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 5.610695508791035
+      y: 0.704614171320622
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 5.728334267887743
+      y: 0.7324004608735428
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 5.849739189566039
+      y: 0.7859509967666748
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 5.93450784828854
+      y: 0.7524358177251801
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 6.029227881496493
+      y: 0.7400610798157609
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 6.093266998282419
+      y: 0.7666488371948116
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 6.153018244209468
+      y: 0.7788570113629587
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 6.217466431831269
+      y: 0.7989360903957825
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 6.290302447363594
+      y: 0.7671398624182394
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 6.400645008227299
+      y: 0.7645633357099704
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 6.506657358010838
+      y: 0.7692385003933873
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 6.593826067456473
+      y: 0.7646030131669974
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 6.68952924836998
+      y: 0.7943197597602192
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 6.7966522443861175
+      y: 0.7393285102491718
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 6.874105285464702
+      y: 0.7516959809677561
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 6.972040219250042
+      y: 0.7443301961942219
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 7.0594045114712
+      y: 0.7562003225700039
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 7.182642220959
+      y: 0.7928127409475452
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 7.255476177372419
+      y: 0.7848155255439726
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 7.353574712605589
+      y: 0.766205254670688
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 7.447003837388136
+      y: 0.7744634890025097
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 7.5145484737926225
+      y: 0.7724685308717845
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 7.567154235510943
+      y: 0.7746236449822941
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 7.681439356040721
+      y: 0.7971584537566877
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 7.799542515358279
+      y: 0.7822349826840179
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 7.879294732735767
+      y: 0.8197958490358843
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 7.96462929037055
+      y: 0.8094375454534355
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 8.064581855343032
+      y: 0.8423751016480282
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 8.155401339245872
+      y: 0.856585920318864
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 8.232108175118833
+      y: 0.845749951625258
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 8.330377857256408
+      y: 0.8233882257587447
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 8.41842717826505
+      y: 0.7869531764539599
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 8.50565294039356
+      y: 0.7960213368825606
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 8.577164255191054
+      y: 0.7726946563292456
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 8.671221568973374
+      y: 0.7674230817959911
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 8.759851587048948
+      y: 0.7664091099869924
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 8.846182820642268
+      y: 0.7586055320362525
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 8.923637573123388
+      y: 0.7521725380413221
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 9.015536738207764
+      y: 0.76570091267524
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 9.134424251747182
+      y: 0.772323246495222
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 9.220352063478266
+      y: 0.7662749575137944
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 9.290651100303531
+      y: 0.7834290951926305
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 9.374695781220527
+      y: 0.8118250951590932
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 9.46775766019286
+      y: 0.7707630973391205
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 9.545127276624566
+      y: 0.748547688804461
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 9.641997188309132
+      y: 0.7582718996537214
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 9.730637071584052
+      y: 0.7511320071523144
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 9.80460990892308
+      y: 0.7668872330867388
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 9.867375532873181
+      y: 0.7535876176910339
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 9.960695499193037
+      y: 0.7633980178883254
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 10.055203113406959
+      y: 0.7731234528387785
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 10.143131928580528
+      y: 0.768038665241642
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 10.223081239553139
+      y: 0.7736761292710231
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 10.30932162201043
+      y: 0.7794957540208616
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 10.406907287526007
+      y: 0.7836603468241342
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 10.489091976489046
+      y: 0.7924626528569083
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 10.580259790301774
+      y: 0.8255758334101633
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 10.675194012903642
+      y: 0.8523275384761132
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 10.849899096785121
+      y: 0.8515643813089951
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 10.885280850736672
+      y: 0.9104298992132651
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 10.93810517467818
+      y: 0.9737970701251548
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 11.0144471447071
+      y: 1.0278069832673697
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 11.090266997950408
+      y: 1.0881961820308514
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 11.140107313449874
+      y: 1.1684961182736746
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 11.205895037610277
+      y: 1.2113576564623019
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 11.244648946705322
+      y: 1.3029522404083889
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 11.308070549981284
+      y: 1.3606150476281922
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 11.353281193531965
+      y: 1.3913327418989738
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 11.340437637672812
+      y: 1.4953183217834773
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 11.381027475064469
+      y: 1.592407347506283
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 11.413635914414563
+      y: 1.6652284463318041
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 11.429199452137109
+      y: 1.7238252292703844
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 11.436038239941906
+      y: 1.8115204260341502
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 11.448102743389374
+      y: 1.9083140538293766
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 11.445231896690174
+      y: 1.9884609662180248
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 11.452452364332661
+      y: 2.071179532685304
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 11.469994076536219
+      y: 2.1715048685632135
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 11.454639288257809
+      y: 2.254228644423885
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 11.49234795800252
+      y: 2.33261744993496
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 11.461574248798293
+      y: 2.4040977500398095
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 11.402185478439655
+      y: 2.4879190443016053
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 11.379870917668367
+      y: 2.54769273014263
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 11.336096055595354
+      y: 2.6146165293167822
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 11.297487316811868
+      y: 2.6978564464837422
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 11.299538701021012
+      y: 2.799014980956776
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 11.272208647402284
+      y: 2.8945708052871555
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 11.255524821150143
+      y: 2.99201688178584
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 11.241224312370626
+      y: 3.075619790879479
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 11.216470744770394
+      y: 3.1518036239550558
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 11.118120759572095
+      y: 3.1711932088576305
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 11.075674858023334
+      y: 3.2785821750276596
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 10.998261544619897
+      y: 3.310267100996477
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 10.929155448776287
+      y: 3.357489570480111
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 10.848922683923917
+      y: 3.436270309423584
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 10.780572213863293
+      y: 3.4913252892533326
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 10.742109590617906
+      y: 3.5482577892275553
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 10.656958651999004
+      y: 3.559212839476332
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 10.617078618436175
+      y: 3.6614930930578935
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 10.560483522696314
+      y: 3.7622816743283036
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 10.520305082789577
+      y: 3.873521581797434
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 10.482667995063903
+      y: 3.9715130400903575
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 10.463960005099741
+      y: 4.053664560612746
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 10.479918158950744
+      y: 4.132517349919649
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 10.448843678953274
+      y: 4.214509399613876
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 10.430097407019735
+      y: 4.307655592504523
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 10.361218644743076
+      y: 4.393838118247953
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 10.269901668550055
+      y: 4.4405685521547875
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 10.193581083208745
+      y: 4.424386220216499
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 10.106831721548463
+      y: 4.4653117985989565
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 10.051960888202037
+      y: 4.553832938712784
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 9.992793020751458
+      y: 4.575816759891755
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 9.936035244591727
+      y: 4.621491058995714
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 9.878438297931677
+      y: 4.685629224931061
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 9.804927045896251
+      y: 4.729546995533525
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 9.722819712726679
+      y: 4.768720152230093
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 9.642433940683702
+      y: 4.829479163774342
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 9.55416203151648
+      y: 4.883994650822341
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 9.529988035044546
+      y: 4.966714693556709
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 9.444929349673467
+      y: 4.985398200364006
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 9.381984953933122
+      y: 5.058358112778238
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 9.321981094173148
+      y: 5.102133442276827
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 9.22173920783122
+      y: 5.127409676928537
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 9.155697252878403
+      y: 5.173813248971244
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 9.121492858093811
+      y: 5.274393898053428
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 9.033023628489499
+      y: 5.3277222654514755
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 8.958539768703242
+      y: 5.397997740136148
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 8.93244196119235
+      y: 5.500233290464108
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 8.842952897937613
+      y: 5.556878372402279
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 8.78684748153888
+      y: 5.606508092556096
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 8.7132391124192
+      y: 5.65944311957644
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 8.676695951995827
+      y: 5.754127597918118
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 8.642109862004519
+      y: 5.8700145827898105
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 8.62059528461305
+      y: 5.949157042345494
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 8.56117038218791
+      y: 5.985223917179992
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 8.533886330739263
+      y: 6.080852708519387
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 8.485324036100948
+      y: 6.1570334397485755
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 8.418625060826926
+      y: 6.24203276215167
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 8.39237821644181
+      y: 6.329842040423672
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 8.389988799824355
+      y: 6.435329958622829
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 8.364043089172851
+      y: 6.546844217468085
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 8.35366753875869
+      y: 6.6388209034185595
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 8.360617935650822
+      y: 6.754997113015007
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 8.368333454656122
+      y: 6.856282355616181
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 8.393520221138443
+      y: 6.944537120735494
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 8.42313534478645
+      y: 7.0818653663761815
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 8.469073304662656
+      y: 7.182008171217587
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 8.552770782042572
+      y: 7.277757386764391
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 8.586037232690524
+      y: 7.363522780070142
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 8.670192242428381
+      y: 7.41590851026375
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 8.740552072103311
+      y: 7.452430058271183
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 8.78758251377544
+      y: 7.524588886673172
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 8.865941580086087
+      y: 7.593769733655041
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 8.885338468502178
+      y: 7.6653333717793615
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 8.95671355558507
+      y: 7.714324145248227
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 9.028334301815297
+      y: 7.774678469801435
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 9.129452748380926
+      y: 7.830122979248444
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 9.2280672327246
+      y: 7.861801146655578
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 9.331170264380633
+      y: 7.888413767102971
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 9.405740043347814
+      y: 7.933211115453692
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 9.4642892771789
+      y: 7.9918741207506
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 9.54365329077167
+      y: 7.988593966405232
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 9.646661601908376
+      y: 8.025304728353266
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 9.757892800643663
+      y: 8.028175777861843
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 9.871628021742875
+      y: 8.039478588858902
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 9.939232136542483
+      y: 8.029942604591195
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 10.045589707177173
+      y: 8.012348084372384
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 10.148508105100934
+      y: 7.99610423439991
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 10.2460815912927
+      y: 7.971665182208182
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 10.337228870174611
+      y: 7.924854705903575
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 10.428004673568196
+      y: 7.880873158824307
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 10.491242292024491
+      y: 7.853044818499825
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 10.570212608221958
+      y: 7.776343318864874
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 10.648705247034691
+      y: 7.704265916232703
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 10.685199177867013
+      y: 7.597626809448013
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 10.760647399077637
+      y: 7.537820427566035
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 10.822934837012786
+      y: 7.460611578047605
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 10.899164804532164
+      y: 7.426995547957232
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 10.94236596056833
+      y: 7.365452068184546
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 10.978307151837656
+      y: 7.250029521674426
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 11.012529187109909
+      y: 7.180012678945753
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 11.012334789770769
+      y: 7.092530327413088
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 11.070759193737965
+      y: 7.015737527903054
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 11.080909855998271
+      y: 6.9166027049318055
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 11.159605416252528
+      y: 6.818870799192593
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 11.189573945734876
+      y: 6.746853637063377
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 11.245606528439376
+      y: 6.664952134773836
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 11.282546112477405
+      y: 6.5710862117389155
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 11.297424537468988
+      y: 6.496762884669206
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 11.289896575766608
+      y: 6.409449157700305
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 11.298951416731018
+      y: 6.299974065569793
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 11.295489538991978
+      y: 6.193555048483305
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 11.250543594688438
+      y: 6.108695058476695
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 11.219955691911972
+      y: 5.9940173159153955
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 11.198646962130331
+      y: 5.89271426311795
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 11.145971765578533
+      y: 5.8081219329332745
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 11.089059945814906
+      y: 5.701268499922598
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 11.018391258426337
+      y: 5.636628800069203
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 10.967218556766971
+      y: 5.561230974690001
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 10.908428134788872
+      y: 5.501504575897575
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 10.819740103540997
+      y: 5.449093370789692
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 10.73531404042757
+      y: 5.414585136660968
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 10.636580565998061
+      y: 5.3632614963266825
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 10.52255615404809
+      y: 5.3230759729484305
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 10.423314183629614
+      y: 5.342594862146975
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 10.351465057789726
+      y: 5.309210621632567
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 10.27842831014289
+      y: 5.264340219833288
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 10.202320913259152
+      y: 5.234078736591654
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 10.109173257201558
+      y: 5.200469407110892
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 10.097078214062364
+      y: 5.128758528330079
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 10.03735162952288
+      y: 5.054526604139782
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 9.967241723037938
+      y: 4.967224355658616
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 9.867786327159578
+      y: 4.932751701848915
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 9.801439106758664
+      y: 4.899020109273709
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 9.704362963282902
+      y: 4.839989056067174
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 9.607223546485368
+      y: 4.820880916955912
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 9.511025202646076
+      y: 4.8347120017435135
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 9.44646964512345
+      y: 4.77654486635755
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 9.371232550997842
+      y: 4.74305486883623
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 9.290575582399148
+      y: 4.679481645982543
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 9.2110121411047
+      y: 4.639459583663966
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 9.108434276283948
+      y: 4.626655418342643
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 9.000407654521817
+      y: 4.601971354615761
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 8.895489763722647
+      y: 4.619909529993503
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 8.797649951369788
+      y: 4.589314085122955
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 8.732816389030143
+      y: 4.564489750755576
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 8.643314489208127
+      y: 4.5371204234487585
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 8.568317560593282
+      y: 4.518467643468139
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 8.484552786008502
+      y: 4.495068638065838
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 8.35727583687381
+      y: 4.477387656333145
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 8.23450580762166
+      y: 4.483220459517445
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 8.147443306482014
+      y: 4.477314523942795
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 8.083343097760935
+      y: 4.433861883877319
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 7.996805490329166
+      y: 4.430630160835879
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 7.937953520448023
+      y: 4.392694231125158
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 7.851457160414429
+      y: 4.3969331300265555
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 7.753478330422603
+      y: 4.397168802012912
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 7.656271069363826
+      y: 4.421248266875896
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 7.565408858252451
+      y: 4.45101921305531
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 7.476302403018541
+      y: 4.512662812828377
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 7.393303052498477
+      y: 4.479337865731656
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 7.314787092091139
+      y: 4.521755958178353
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 7.212369661622461
+      y: 4.534786139143459
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 7.127348808537352
+      y: 4.522101964442961
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 7.0493138032489355
+      y: 4.587283059684338
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 6.943478177435853
+      y: 4.574284323215306
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 6.840397755300159
+      y: 4.593838224138923
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 6.768326883998528
+      y: 4.610058832437985
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 6.6882399454354395
+      y: 4.636180535535687
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 6.584911492730841
+      y: 4.639178761077632
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 6.498368880164061
+      y: 4.651560750988943
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 6.41359882364889
+      y: 4.649260346370955
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 6.338024727841559
+      y: 4.662474638035327
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 6.240276807035635
+      y: 4.662555513893285
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 6.138230513288803
+      y: 4.671826629708457
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 6.048746153594174
+      y: 4.662347020609345
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 5.96062624843214
+      y: 4.654261963785317
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 5.88530055258059
+      y: 4.669625862423546
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 5.8114742026394
+      y: 4.6535522989811415
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 5.715810429639503
+      y: 4.641617001863135
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 5.621356781792008
+      y: 4.622428258599763
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 5.530755709926287
+      y: 4.6165489751558475
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 5.468935955544185
+      y: 4.593299793524472
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 5.368351231900924
+      y: 4.5973805164902135
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 5.258057263632626
+      y: 4.590414394751161
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 5.182178104008096
+      y: 4.57264747825872
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 5.102428046714676
+      y: 4.538570258409667
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 5.016925894333424
+      y: 4.545819993706759
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 4.931753735018783
+      y: 4.542973380707462
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 4.850047375134313
+      y: 4.522227618484255
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 4.761839930848213
+      y: 4.4606289914508315
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 4.651280163054589
+      y: 4.449700507823145
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 4.5801470727810285
+      y: 4.456839004444339
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 4.503093378061536
+      y: 4.475668008505956
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 4.432051695238912
+      y: 4.4308324068147105
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 4.344672474380506
+      y: 4.460886907933739
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 4.26841246165198
+      y: 4.445933683404146
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 4.162956168869956
+      y: 4.432765621965799
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 4.090240906248951
+      y: 4.3984525995913035
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 4.009039154239018
+      y: 4.445455259561326
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 3.8955884411133197
+      y: 4.444602586957242
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 3.785474858774567
+      y: 4.482573086109719
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 3.686188545386276
+      y: 4.500809028158099
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 3.6032999868253466
+      y: 4.526840014337972
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 3.524262344865938
+      y: 4.539109260361107
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 3.443658745490903
+      y: 4.556377578400734
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 3.3530651574118178
+      y: 4.575814510408799
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 3.2747182548184997
+      y: 4.601510643871582
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 3.1846565620705416
+      y: 4.603977227510307
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 3.105100201372659
+      y: 4.622302507772891
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 3.0156248048226724
+      y: 4.6594741424917725
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 2.9238148449954817
+      y: 4.668147293711244
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 2.862003509516083
+      y: 4.671250693040061
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 2.785294428496402
+      y: 4.690673131287909
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 2.705854489386777
+      y: 4.723972296253474
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 2.5875879220376232
+      y: 4.704530675748101
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 2.5100293313999082
+      y: 4.708390421106923
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 2.4187358452018355
+      y: 4.761153340646875
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 2.295254387318487
+      y: 4.776215988911021
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 2.2129946510807335
+      y: 4.732876478596773
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 2.1198261484616667
+      y: 4.713768297496962
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 2.0273099790257856
+      y: 4.73347651424451
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 1.9852281873681927
+      y: 4.645748232987433
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 1.9287915526337764
+      y: 4.572499476857892
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 1.8269250523477634
+      y: 4.573556338037157
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 1.792029829081453
+      y: 4.510100652351865
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 1.738964075836529
+      y: 4.444639437507143
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 1.6552243391821895
+      y: 4.384956448396469
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 1.5867741392505526
+      y: 4.3433668353205075
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 1.5275499606449208
+      y: 4.301878197198266
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 1.4626279866018768
+      y: 4.243771151885948
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 1.4578639881897433
+      y: 4.134044463019639
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 1.4057543712066345
+      y: 4.067382352507053
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 1.3886304193194448
+      y: 4.004557952608457
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 1.3494658835524194
+      y: 3.921402453816109
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 1.3249058438604246
+      y: 3.8435581704982935
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 1.294630954472898
+      y: 3.7671121329070396
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 1.2898055907463029
+      y: 3.6695919562312262
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 1.253526030794304
+      y: 3.583828582535638
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 1.2571784453875914
+      y: 3.5248708906043853
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 1.2348752346331209
+      y: 3.4378782228920572
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 1.2287405208074884
+      y: 3.3511540953158017
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 1.237752337186293
+      y: 3.2653505690464275
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 1.2773563763598592
+      y: 3.0900320114778577
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 1.2740523097188217
+      y: 3.0062534557429235
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 1.3058817128056042
+      y: 2.9198681236021784
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 1.2648765146330436
+      y: 2.826713865278771
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 1.2671258819469098
+      y: 2.7299868156501232
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 1.2547706618668981
+      y: 2.6523414022058875
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 1.2791746894271374
+      y: 2.491192039596841
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 1.2785106877088044
+      y: 2.379049158068431
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 1.2800026051667968
+      y: 2.2793404729330993
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 1.3067915151411262
+      y: 2.1997326091550673
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 1.3084455784473994
+      y: 2.119971732103251
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 1.3500940752289172
+      y: 1.8492081063333254
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 1.353879931958727
+      y: 1.7470510493300144
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 1.3587563853429685
+      y: 1.6705123588643855
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 1.3953357752904643
+      y: 1.5954687747099523
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 1.390625521752955
+      y: 1.5104605582340043
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 1.3893079560395722
+      y: 1.3801198959936067
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 1.4713117605893538
+      y: 1.3174767629172572
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 1.547891954819114
+      y: 1.2721828107095892
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 1.5761481571158324
+      y: 1.2174758932645853
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 1.6312030541444014
+      y: 1.1770277464807213
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 1.6811518840562272
+      y: 1.1226289909113094
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 1.7477695089728031
+      y: 1.0603718616010007
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 1.8031755935616556
+      y: 0.9778103580955373
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 1.8621180312658154
+      y: 0.9298830031226971
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 1.9085562583086066
+      y: 0.8738723457336404
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 1.9702686407456542
+      y: 0.8181055948298667
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 2.0150936759725875
+      y: 0.7452654417768468
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 2.092414808059577
+      y: 0.7651607209117186
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 2.1593721634860974
+      y: 0.7517407880586686
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 2.22087628304787
+      y: 0.7409545705863189
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 2.261827049643868
+      y: 0.7393457719946447
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 2.357503414805263
+      y: 0.7467257498279508
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 2.461052685815297
+      y: 0.7098467641642567
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 2.5729687344203738
+      y: 0.7364757603865854
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 2.6920237487490115
+      y: 0.7514708757993251
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 2.8028658221781266
+      y: 0.7426527529182698
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 2.8787870109400258
+      y: 0.7715379474504958
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 2.9722300759812743
+      y: 0.7944063558675712
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 3.011353320315972
+      y: 0.8011926868032669
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 3.0401710849296646
+      y: 0.7848776647914362
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 3.0738842088883223
+      y: 0.7775710393457568
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 3.0561859871319013
+      y: 0.7926664792468464
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 3.060449168683817
+      y: 0.7965210481748586
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 3.057011546185387
+      y: 0.7940645283837406
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 3.0474611082067806
+      y: 0.7901135153619161
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 3.095512202929717
+      y: 0.7753598779573616
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 3.0458142310386163
+      y: 0.7893164519654243
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 3.0458125745326967
+      y: 0.7896990661287577
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 3.050358794846758
+      y: 0.7922965684698907
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 3.064452168025446
+      y: 0.782177957173639
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 3.0646908709095846
+      y: 0.7817039622837949
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 3.061085511671952
+      y: 0.7741155646768629
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 3.0464769438332437
+      y: 0.7886165008299159
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 3.0464166988145416
+      y: 0.7882210925947212
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 3.095361333702165
+      y: 0.7752783349580933
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 3.0646489373756243
+      y: 0.7822118648491222
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 3.045801607201868
+      y: 0.7893030304115127
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 3.0635309160130735
+      y: 0.7830089439746182
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 3.0504342188033196
+      y: 0.7922889473282662
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 3.0645757507388316
+      y: 0.7821509871240893
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 3.0506369178826755
+      y: 0.7922578446821424
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 3.0457738161497816
+      y: 0.7899098210591461
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 3.064873671340646
+      y: 0.7819063032261273
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 3.046457925205276
+      y: 0.7879308525681954
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 3.0938172661858605
+      y: 0.7674685336869634
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 3.0612410208159413
+      y: 0.7735117570346679
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 3.0614737658854154
+      y: 0.7731041696405813
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 3.0427472226523267
+      y: 0.7828896050365545
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 3.0934944581155928
+      y: 0.7672444163539311
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 3.0434943301255677
+      y: 0.7820984195784056
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 3.064229219014681
+      y: 0.7819253146224264
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 3.0952388674529203
+      y: 0.7753413759437807
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 3.0650080260383294
+      y: 0.7816218835143293
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 3.046457096731701
+      y: 0.7881905554523944
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 3.0464794786991494
+      y: 0.7878245028072668
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 3.0459424994258475
+      y: 0.7896717627283291
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 3.0459668202861168
+      y: 0.7891836942032958
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 3.0428379683346374
+      y: 0.7822583517099903
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 3.06481410959024
+      y: 0.7816443698724971
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 3.0459942911545026
+      y: 0.7887231870301157
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 3.0952449245476656
+      y: 0.7752787873207082
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 3.0951699842223404
+      y: 0.7752797139333154
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 3.048881473376122
+      y: 0.7933307463038384
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 3.0458110429062772
+      y: 0.7887618032765031
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 3.045771566451034
+      y: 0.788603017608775
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 3.048412245639778
+      y: 0.7937054757415484
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 3.0647017288028553
+      y: 0.7821809763913261
+      z: 0
+- header:
+    frame_id: stargazer
+    seq: 0
+    stamp:
+      nsecs: 185400485
+      secs: 1689604844
+  pose:
+    orientation:
+      w: 1
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 3.0459317123820195
+      y: 0.7887739392662475
+      z: 0

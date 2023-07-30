@@ -1,0 +1,39 @@
+<launch>
+
+
+  <arg name="path_file" default="$(find kal)/res/path_smooth_clockwise.yaml" />
+
+  <arg name="map_frame" default="stargazer"/>
+  <arg name="vehicle_frame" default="vehicle_rear_axle"/>
+
+  <arg name="control_command_topic" default="/anicar/mux/ackermann_cmd_mux/input/path_follow"/>
+  <arg name="path_topic" default="/path"/>
+  <arg name="trajectory_topic" default="/trajectory"/>
+
+  <!-- Path publisher -->
+  <include file="$(find path_generator_ros_tool)/launch/path_publisher.launch">
+    <arg name="path_topic" value="$(arg path_topic)"/>
+    <arg name="path_file" value="$(arg path_file)"/>
+  </include>
+
+  <!-- Trajectory planner  -->
+  <include file="$(find kal_trajectory_planner_ros_tool)/launch/trajectory_planner_node.launch">
+    <arg name="map_frame" value="$(arg map_frame)"/>
+    <arg name="path_topic" value="$(arg path_topic)"/>
+    <arg name="trajectory_topic" value="$(arg trajectory_topic)"/>
+    <arg name="vehicle_frame" value="$(arg vehicle_frame)"/>
+  </include>
+
+  <!-- Controller -->
+  <include file="$(find kal3_controller_ros_tool)/launch/controller_node.launch">
+    <arg name="control_command_topic" value="$(arg control_command_topic)"/>
+    <arg name="map_frame" value="$(arg map_frame)"/>
+    <arg name="trajectory_topic" value="$(arg trajectory_topic)"/>
+    <arg name="vehicle_frame" value="$(arg vehicle_frame)"/>
+  </include>
+  <!-- perception_detect -->
+  <node name="kal3_perception_detect" pkg="kal3_perception_detect" type="inference-ros-node.py" output="screen"/>
+  <node name="kal3_perception_mapping" pkg="kal3_perception_mapping" type="mapping_node.py" output="screen"/>
+  <node name="kal3_perception_trajectory" pkg="kal3_perception_mapping" type="trajectory_node.py" output="screen"/>
+
+</launch>
