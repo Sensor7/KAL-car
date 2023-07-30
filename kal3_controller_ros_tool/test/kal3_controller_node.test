@@ -1,0 +1,18 @@
+<launch>
+    <!-- uncomment this if your unittest advertises /clock" -->
+    <!--<param name="/use_sim_time" value="True"/>-->
+
+    <test test-name="kal3_controller_node_test" pkg="kal3_controller_ros_tool" type="kal3_controller_node-test" ns="/controller" time-limit="60.0"/>
+
+    <arg name="config" default="$(find kal3_controller_ros_tool)/test/Kal3_Controller_test_parameters.yaml"/>
+
+    <include file="$(find kal3_controller_ros_tool)/launch/controller_node.launch">
+        <arg name="config" value="$(arg config)"/>
+        <arg name="control_command_topic" value="/rostest/control_command"/>
+        <arg name="map_frame" value="map"/>
+        <arg name="trajectory_topic" value="/rostest/trajectory"/>
+        <arg name="vehicle_frame" value="vehicle"/>
+        <arg name="stop_sign_dis_topic" value="/sign_dist"/>
+    </include>
+
+</launch>

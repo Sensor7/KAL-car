@@ -1,0 +1,36 @@
+<package format="2">
+  <name>kal3_controller_ros_tool</name>
+  <version>0.0.1</version>
+  <description>ROS wrapper for kal3 controller</description>
+
+  <license>BSD</license>
+  <maintainer email="chuyang0628@gmail.com">Chuyang Deng</maintainer>
+  <author email="chuyang0628@gmail.com">Chuyang Deng</author>
+  <url type="repository">https://gitlab.mrt.kit.edu/kognitive_automobile_labor/kal3</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>mrt_cmake_modules</build_depend>
+  <build_depend>rosinterface_handler</build_depend>
+  <build_depend>message_generation</build_depend>
+  <exec_depend>message_runtime</exec_depend>
+  <test_depend>gtest</test_depend>
+  <build_depend>roscpp</build_depend>
+  <test_depend>rostest</test_depend>
+  <test_depend>util_testing_ros</test_depend>
+
+  <depend>ackermann_msgs</depend>
+  <depend>dynamic_reconfigure</depend>
+  <depend>eigen</depend>
+  <depend>geometry_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>nodelet</depend>
+  <depend>std_msgs</depend>
+  <depend>tf2_ros</depend>
+  <depend>visualization_msgs</depend>
+
+  <depend>kal3_controller</depend>
+
+  <export>
+    <nodelet plugin="${prefix}/nodelet_plugins.xml" /><!-- Other tools can request additional information be placed here -->
+  </export>
+</package>

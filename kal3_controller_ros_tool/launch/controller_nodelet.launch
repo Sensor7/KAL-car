@@ -1,0 +1,31 @@
+<launch>
+
+    <arg name="control_command_topic"/>
+    <arg name="map_frame"/>
+    <arg name="trajectory_topic"/>
+    <arg name="vehicle_frame"/>
+    <arg name="stop_sign_dis_topic" default="/sign_dist"/>
+
+    <arg name="config" default="$(find kal3_controller_ros_tool)/launch/params/Kal3_Controller_parameters.yaml"/>
+
+    <arg name="nodelet_manager_name" default="nodelet_manager_controller" doc="Name of nodelet manager. If it was already started the INCLUDING its namespace"/>
+    <arg name="start_nodelet_manager" default="true"/>
+
+    <!-- Nodelet manager (if enabled) -->
+    <arg name="manager_name" value="/control/$(arg nodelet_manager_name)" if="$(arg start_nodelet_manager)"/>
+    <arg name="manager_name" value="$(arg nodelet_manager_name)" unless="$(arg start_nodelet_manager)"/>
+    <node pkg="nodelet" type="nodelet" name="$(arg nodelet_manager_name)" args="manager" output="screen" ns="/control"
+            if="$(arg start_nodelet_manager)"/>
+
+    <!-- Controller -->
+    <node pkg="nodelet" type="nodelet" name="controller" ns="/control"
+            args="load kal3_controller_ros_tool/ControllerNodelet $(arg nodelet_manager_name)" output="screen" required="$(arg required)">
+        <rosparam command="load" file="$(arg config)"/>
+        <param name="/control_command_publisher_topic" value="$(arg control_command_topic)"/>
+        <param name="/map_frame" value="$(arg map_frame)" />
+        <param name="/trajectory_subscriber_topic" value="$(arg trajectory_topic)" />
+        <param name="/vehicle_frame" value="$(arg vehicle_frame)" />
+        <param name="/stop_sign_subscriber_topic" value="$(arg stop_sign_dis_topic)" />
+    </node>
+
+</launch>

@@ -1,0 +1,111 @@
+#!/usr/bin/env python
+"""
+Add your desired parameters here. All required headers will be generated from this.
+!!!IMPORTANT this file must be executable !!!
+
+Use one of these commands to add parameters to your parameter struct:
+
+def add(self, name, paramtype, description, level=0, edit_method='""', default=None, min=None, max=None, configurable=False, global_scope=False, constant=False):
+        Adds parameters to your parameter struct.
+
+def add_enum(self, name, description, entry_strings, default=None, paramtype='int'):
+        Adds an enum to dynamic reconfigure
+
+def add_group(self, name):
+        Create a parameter group for the dynamic_reconfigure window
+
+def add_publisher(self, name, message_type, description, default_topic=None, default_queue_size=5, topic_param=None,
+                  queue_size_param=None, header=None, module=None, configurable=False, scope="private",
+                  constant=False, diagnosed=False, min_frequency=0., min_frequency_param=None, max_delay=float('inf'),
+                  max_delay_param=None):
+        Adds an initialized publisher to your parameter struct and parameter for its topic and queue size.
+        Diagnosed publishers require the line: gen.add_diagnostic_updater().
+
+
+def add_subscriber(self, name, message_type, description, default_topic=None, default_queue_size=5, no_delay=False,
+                   topic_param=None, queue_size_param=None, header=None, module=None, configurable=False,
+                   scope='private', constant=False, diagnosed=False, min_frequency=0., min_frequency_param=None,
+                   max_delay=float('inf'), max_delay_param=None):
+        Adds an initialized subscriber to your parameter struct and parameters for topic and queue size.
+        Diagnosed subscribers require the line: gen.add_diagnostic_updater().
+
+
+For more information on the API, see here: https://gitlab.mrt.uni-karlsruhe.de/MRT/rosinterface_handler/blob/master/doc/HowToWriteYourFirstInterfaceFile.md
+"""
+from rosinterface_handler.interface_generator_catkin import *
+
+gen = InterfaceGenerator()
+
+# Add a parameter for changing verbosity (=log level) on the fly
+gen.add_verbosity_param(configurable=True)
+
+# Fixed parameters
+gen.add("control_loop_rate", paramtype='double', description="Controller loop rate [Hz]",
+        min=1.0, max=200.0, configurable=False)
+gen.add("map_frame", paramtype='std::string', description='TF frame_id of map',
+        configurable=False)
+gen.add("vehicle_frame", paramtype='std::string',
+        description='TF frame_id of vehicle', configurable=False)
+gen.add("wheel_base", paramtype='double', description="Wheelbase of the vehicle [m]",
+        min=0, max=3., configurable=False)
+
+# Tunable parameters
+gen.add("k_angular_p", paramtype='double', description="Angle weight [-]",
+        min=0, max=10, configurable=True)
+gen.add("k_distance_p", paramtype='double', description="Distance weight [-]",
+        min=0, max=10, configurable=True)
+gen.add("k_angular_i", paramtype='double', description="Angle integral weight [-]",
+        min=0, max=10, configurable=True)
+gen.add("k_distance_i", paramtype='double', description="Distance integral weight [-]",
+        min=0, max=10, configurable=True)
+gen.add("k_angular_d", paramtype='double', description="Angle differential weight [-]",
+        min=0, max=10, configurable=True)
+gen.add("k_distance_d", paramtype='double', description="Distance differential weight [-]",
+        min=0, max=10, configurable=True)
+gen.add("look_ahead_index", paramtype='int', description="Index shift of lookahead point [-]",
+        min=1, max=50, configurable=True)
+gen.add("publish_debug_info", paramtype='bool',
+        description="Whether or not to publish debug info", configurable=True)
+gen.add("steering_angle_max", paramtype='double', description="The maximum steering angle [rad]",
+        min=0., max=1., configurable=True)
+gen.add("trajectory_age_max", paramtype='double', description="Maximum age of last trajectory before stopping the vehicle [s]",
+        min=0.1, max=5., configurable=True)
+gen.add("min_velocity_threshold", paramtype='double', description="Desired velocity threshold below which the car stops driving [m/s]",
+        min=0.01, max=2, configurable=True)
+gen.add("k_longitude", paramtype='double', description="Weight to adjust speed controller",
+        min=0, max=5, configurable=True)
+
+# Publisher and subscriber
+pub_sub = gen.add_group("Publisher and subscriber")
+pub_sub.add_subscriber("trajectory_subscriber", message_type="nav_msgs::Path",
+                       description="Trajectory subscriber", no_delay=True)
+pub_sub.add_subscriber("stop_sign_subscriber", message_type="std_msgs::Float64",
+                        description="stop sign distance subscriber")
+pub_sub.add_subscriber("cone_dist_subscriber", message_type="std_msgs::Float64",
+                        description="cone distance subscriber")
+pub_sub.add_subscriber("cone_trajectory_subscriber", message_type="nav_msgs::Path",
+                        description="cone trajectory subscriber")
+pub_sub.add_publisher("control_command_publisher", message_type="ackermann_msgs::AckermannDriveStamped",
+                        description="Control command publisher")
+
+# Debug publisher
+pub_sub.add_publisher("debug_control_command_viz_publisher", message_type="visualization_msgs::Marker",
+                      description="Visualization of control command")
+pub_sub.add_publisher("debug_closest_point_on_trajectory_publisher", message_type="geometry_msgs::PointStamped",
+                      description="Debug Info: Closest point on trajectory")
+pub_sub.add_publisher("debug_look_ahead_point_publisher", message_type="geometry_msgs::PointStamped",
+                      description="Debug Info: Look ahead point")
+pub_sub.add_publisher("debug_angle_path", message_type="std_msgs::Float64",
+                      description="Debug Info: Angle of the path")
+pub_sub.add_publisher("debug_curvature", message_type="std_msgs::Float64",
+                      description="Debug Info: Curvature of the path")
+pub_sub.add_publisher("debug_error_angle", message_type="std_msgs::Float64",
+                      description="Debug Info: Heading error of the vehicle w.r.t. to the trajectory")
+pub_sub.add_publisher("debug_error_signed_distance", message_type="std_msgs::Float64",
+                      description="Debug Info: Error of lateral position of the vehicle w.r.t. the trajectory")
+pub_sub.add_publisher("debug_yaw_vehicle", message_type="std_msgs::Float64",
+                      description="Debug Info: The yaw angle of the vehicle")
+
+# DO NOT TOUCH THIS LINE
+# Syntax : Package, Node, Config Name(The final name will be ControllerConfig)
+exit(gen.generate("kal3_controller_ros_tool", "kal3_controller", "Kal3_Controller"))

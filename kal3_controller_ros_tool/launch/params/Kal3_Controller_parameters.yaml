@@ -1,0 +1,229 @@
+### This file was generated using the rosinterface_handler generate_yaml script.
+
+# Name:	verbosity
+# Desc:	Sets the verbosity for this node
+# Type:	std::string
+verbosity: info
+
+# Name:	control_loop_rate
+# Desc:	Controller loop rate [Hz]
+# Type:	double
+# [min,max]:	[1.0/200.0]
+control_loop_rate: 10
+
+# Name:	map_frame
+# Desc:	TF frame_id of map
+# Type:	std::string
+map_frame:
+
+# Name:	vehicle_frame
+# Desc:	TF frame_id of vehicle
+# Type:	std::string
+vehicle_frame:
+
+# Name:	wheel_base
+# Desc:	Wheelbase of the vehicle [m]
+# Type:	double
+# [min,max]:	[0/3.0]
+wheel_base: 0.29
+
+# Name:	k_angular_p
+# Desc:	Angle weight [-]
+# Type:	double
+# [min,max]:	[0/10]
+k_angular_p: 2.0
+
+# Name:	k_distance_p
+# Desc:	Distance weight [-]
+# Type:	double
+# [min,max]:	[0/10]
+k_distance_p: 3.0
+
+# Name:	k_angular_i
+# Desc:	Angle integral weight [-]
+# Type:	double
+# [min,max]:	[0/10]
+k_angular_i: 0.0
+
+# Name:	k_distance_i
+# Desc:	Distance integral weight [-]
+# Type:	double
+# [min,max]:	[0/10]
+k_distance_i: 0.0
+
+# Name:	k_angular_d
+# Desc:	Angle differential weight [-]
+# Type:	double
+# [min,max]:	[0/10]
+k_angular_d: 0.4
+
+# Name:	k_distance_d
+# Desc:	Distance differential weight [-]
+# Type:	double
+# [min,max]:	[0/10]
+k_distance_d: 0.4
+
+# Name:	look_ahead_index
+# Desc:	Index shift of lookahead point [-]
+# Type:	int
+# [min,max]:	[1/50]
+look_ahead_index: 10
+
+# Name:	publish_debug_info
+# Desc:	Whether or not to publish debug info
+# Type:	bool
+publish_debug_info: True
+
+# Name:	steering_angle_max
+# Desc:	The maximum steering angle [rad]
+# Type:	double
+# [min,max]:	[0.0/1.0]
+steering_angle_max: 0.3
+
+# Name:	trajectory_age_max
+# Desc:	Maximum age of last trajectory before stopping the vehicle [s]
+# Type:	double
+# [min,max]:	[0.1/5.0]
+trajectory_age_max: 1.0
+
+# Name:	min_velocity_threshold
+# Desc:	Desired velocity threshold below which the car stops driving [m/s]
+# Type:	double
+# [min,max]:	[0.01/2]
+min_velocity_threshold: 0.2
+
+# Name:	k_longitude
+# Desc:	Weight to adjust speed controller
+# Type:	double
+# [min,max]:	[0/5]
+k_longitude: 1.5
+
+# Name:	trajectory_subscriber_topic
+# Desc:	Topic for Trajectory subscriber
+# Type:	std::string
+trajectory_subscriber_topic:
+
+# Name:	trajectory_subscriber_queue_size
+# Desc:	Queue size for Trajectory subscriber
+# Type:	int
+trajectory_subscriber_queue_size: 5
+
+# Name:	stop_sign_subscriber_topic
+# Desc:	Topic for stop sign distance subscriber
+# Type:	std::string
+stop_sign_subscriber_topic:
+
+# Name:	stop_sign_subscriber_queue_size
+# Desc:	Queue size for stop sign distance subscriber
+# Type:	int
+stop_sign_subscriber_queue_size: 20
+
+# Name:	cone_dist_subscriber_topic
+# Desc:	Topic for cone distance subscriber
+# Type:	std::string
+cone_dist_subscriber_topic:
+
+# Name:	cone_dist_subscriber_queue_size
+# Desc:	Queue size for cone distance subscriber
+# Type:	int
+cone_dist_subscriber_queue_size: 20
+
+# Name:	cone_trajectory_subscriber_topic
+# Desc:	Topic for cone trajectory subscriber
+# Type:	std::string
+cone_trajectory_subscriber_topic:
+
+# Name:	cone_trajectory_subscriber_queue_size
+# Desc:	Queue size for cone trajectory subscriber
+# Type:	int
+cone_trajectory_subscriber_queue_size: 20
+
+# Name:	control_command_publisher_topic
+# Desc:	Topic for Control command publisher
+# Type:	std::string
+control_command_publisher_topic:
+
+# Name:	control_command_publisher_queue_size
+# Desc:	Queue size for Control command publisher
+# Type:	int
+control_command_publisher_queue_size: 5
+
+# Name:	debug_control_command_viz_publisher_topic
+# Desc:	Topic for Visualization of control command
+# Type:	std::string
+debug_control_command_viz_publisher_topic: debug/control_command_viz
+
+# Name:	debug_control_command_viz_publisher_queue_size
+# Desc:	Queue size for Visualization of control command
+# Type:	int
+debug_control_command_viz_publisher_queue_size: 5
+
+# Name:	debug_closest_point_on_trajectory_publisher_topic
+# Desc:	Topic for Debug Info: Closest point on trajectory
+# Type:	std::string
+debug_closest_point_on_trajectory_publisher_topic: debug/closest_point_on_trajectory
+
+# Name:	debug_closest_point_on_trajectory_publisher_queue_size
+# Desc:	Queue size for Debug Info: Closest point on trajectory
+# Type:	int
+debug_closest_point_on_trajectory_publisher_queue_size: 5
+
+# Name:	debug_look_ahead_point_publisher_topic
+# Desc:	Topic for Debug Info: Look ahead point
+# Type:	std::string
+debug_look_ahead_point_publisher_topic: debug/look_ahead_point
+
+# Name:	debug_look_ahead_point_publisher_queue_size
+# Desc:	Queue size for Debug Info: Look ahead point
+# Type:	int
+debug_look_ahead_point_publisher_queue_size: 5
+
+# Name:	debug_angle_path_topic
+# Desc:	Topic for Debug Info: Angle of the path
+# Type:	std::string
+debug_angle_path_topic: debug/path_angle
+
+# Name:	debug_angle_path_queue_size
+# Desc:	Queue size for Debug Info: Angle of the path
+# Type:	int
+debug_angle_path_queue_size: 5
+
+# Name:	debug_curvature_topic
+# Desc:	Topic for Debug Info: Curvature of the path
+# Type:	std::string
+debug_curvature_topic: debug/curvature
+
+# Name:	debug_curvature_queue_size
+# Desc:	Queue size for Debug Info: Curvature of the path
+# Type:	int
+debug_curvature_queue_size: 5
+
+# Name:	debug_error_angle_topic
+# Desc:	Topic for Debug Info: Heading error of the vehicle w.r.t. to the trajectory
+# Type:	std::string
+debug_error_angle_topic: debug/error_angle
+
+# Name:	debug_error_angle_queue_size
+# Desc:	Queue size for Debug Info: Heading error of the vehicle w.r.t. to the trajectory
+# Type:	int
+debug_error_angle_queue_size: 5
+
+# Name:	debug_error_signed_distance_topic
+# Desc:	Topic for Debug Info: Error of lateral position of the vehicle w.r.t. the trajectory
+# Type:	std::string
+debug_error_signed_distance_topic: debug/error_signed_distance
+
+# Name:	debug_error_signed_distance_queue_size
+# Desc:	Queue size for Debug Info: Error of lateral position of the vehicle w.r.t. the trajectory
+# Type:	int
+debug_error_signed_distance_queue_size: 5
+
+# Name:	debug_yaw_vehicle_topic
+# Desc:	Topic for Debug Info: The yaw angle of the vehicle
+# Type:	std::string
+debug_yaw_vehicle_topic: debug/yaw_vehicle
+
+# Name:	debug_yaw_vehicle_queue_size
+# Desc:	Queue size for Debug Info: The yaw angle of the vehicle
+# Type:	int
+debug_yaw_vehicle_queue_size: 5

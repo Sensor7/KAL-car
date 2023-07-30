@@ -1,0 +1,27 @@
+<launch>
+
+  <!-- Set these parameters in a higher level launch file -->
+  <arg name="control_command_topic"/>
+  <arg name="map_frame"/>
+  <arg name="trajectory_topic"/>
+  <arg name="vehicle_frame"/>
+  <arg name="stop_sign_dis_topic" default="/sign_dist"/>
+  <arg name="cone_dis_topic" default="/cone_dist"/>
+  <arg name="cone_traject_topic" default="/trajectory_planner_node"/>
+
+
+  <!-- Set all default values in this yaml file -->
+  <arg name="config" default="$(find kal3_controller_ros_tool)/launch/params/Kal3_Controller_parameters.yaml"/>
+
+  <node pkg="kal3_controller_ros_tool" type="kal3_controller" name="kal3_controller" ns="/control" output="screen">
+    <rosparam command="load" file="$(arg config)"/>
+    <param name="/control_command_publisher_topic" value="$(arg control_command_topic)"/>
+    <param name="/map_frame" value="$(arg map_frame)" />
+    <param name="/trajectory_subscriber_topic" value="$(arg trajectory_topic)" />
+    <param name="/vehicle_frame" value="$(arg vehicle_frame)" />
+    <param name="/stop_sign_subscriber_topic" value="$(arg stop_sign_dis_topic)" />
+    <param name="/cone_dist_subscriber_topic" value="$(arg cone_dis_topic)" />
+    <param name="/cone_trajectory_subscriber_topic" value="$(arg cone_traject_topic)" />
+  </node>
+
+</launch>

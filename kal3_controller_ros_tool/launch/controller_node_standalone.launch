@@ -1,0 +1,16 @@
+<!--
+  Launch this file only if you want to start the controller only (e.g. for testing and development).
+  For launching the entire stack, include the controller_node.launch file in a higher level launch file directly.
+-->
+
+<launch>
+
+  <include file="$(find kal3_controller_ros_tool)/launch/controller_node.launch">
+    <arg name="control_command_topic" value="/anicar/mux/ackermann_cmd_mux/input/path_follow"/>
+    <arg name="map_frame" value="stargazer"/>
+    <arg name="trajectory_topic" value="/trajectory"/>
+    <arg name="vehicle_frame" value="vehicle_rear_axle"/>
+    <arg name="stop_sign_dis_topic" value="/sign_dist"/>
+  </include>
+
+</launch>
